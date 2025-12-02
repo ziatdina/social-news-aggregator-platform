@@ -1,0 +1,67 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  width: 500px;
+  max-width: 90vw;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #1976d2;
+}
+
+.content {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  min-height: 100px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.uploadButton {
+  padding: 8px 16px;
+  border: 1px dashed #1976d2;
+  background-color: #e3f2fd;
+  color: #1976d2;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.cancelButton {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton {
+  padding: 8px 16px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

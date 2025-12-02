@@ -1,0 +1,73 @@
+.newsCard {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.authorSection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.authorSection img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.authorText span {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.authorText p {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+}
+
+.newsSection {
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.newsSection p {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.newsSection img {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.likeSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.likeSection span:first-child {
+  font-size: 14px;
+  color: #666;
+}
+
+.likeSection span:last-child {
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+}
