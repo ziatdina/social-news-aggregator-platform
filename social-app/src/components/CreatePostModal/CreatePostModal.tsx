@@ -1,3 +1,6 @@
 export const CreatePostModal = () => {
-  return <div>Компонент CreatePostModal</div>
+  return <div>
+    При нажатии на кнопку "Создать пост" будет появляться компонент CreatePostModal - модальное окно для создания поста,
+    с полем для ввода текста и кнопкой "Опубликовать"
+  </div>
 }

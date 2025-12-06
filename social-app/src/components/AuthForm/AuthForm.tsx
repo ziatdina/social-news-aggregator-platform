@@ -3,7 +3,8 @@ import styles from "./AuthForm.module.css"
 export const AuthForm = () => {
   return (
     <div className={styles.authForm}>
-    Компонент AuthForm
+        Здесь будет реализован Компонент AuthForm 
+        - форма с кнопками для входа (почта, пароль) и регистрации (имя, почта, пароль)
     </div>
   )
 }
