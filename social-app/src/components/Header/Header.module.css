@@ -1,0 +1,26 @@
+.header {
+  background: white;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1976d2;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

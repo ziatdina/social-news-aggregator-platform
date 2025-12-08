@@ -1,0 +1,15 @@
+.newsFeed {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #666;
+  font-size: 24px;
+  text-align: center;
+}
