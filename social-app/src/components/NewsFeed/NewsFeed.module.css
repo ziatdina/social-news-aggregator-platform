@@ -1,15 +1,51 @@
 .newsFeed {
-  background: white;
-  padding: 30px;
-  border-radius: 8px;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  max-width: 800px;
 }
 
-.title {
-  color: #666;
-  font-size: 24px;
+.feedContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
   text-align: center;
+}
+
+.loadingText {
+  margin-top: 16px;
+  font-size: 15px;
+  color: #666;
+}
+
+.emptyContainer {
+  text-align: center;
+  padding: 60px 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #f0f0f0;
+}
+
+.emptyTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.emptyText {
+  font-size: 15px;
+  color: #666;
+  opacity: 0.8;
+}
+
+.snackbarAlert {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }

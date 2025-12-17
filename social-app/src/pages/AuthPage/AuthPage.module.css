@@ -1,0 +1,13 @@
+.authPage {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(100deg, #e6edff 0%, #ffffff 100%);
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 440px;
+}

@@ -1,26 +1,43 @@
 .header {
   background: white;
-  border-bottom: 1px solid #e0e0e0;
-  padding: 15px 0;
-  width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0
 }
 
 .container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  padding: 0 20px;
+  height: 64px;
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px; 
+  cursor: pointer;
+}
+
+.logo:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.logoText {
   font-size: 20px;
-  font-weight: bold;
-  color: #1976d2;
+  font-weight: 700;
+  color: #2f2f2f;
+  padding: 0 16px;
 }
 
 .controls {
   display: flex;
-  gap: 10px;
   align-items: center;
+  gap: 12px;
+  height: 100%;
+  padding-right: 10px; 
 }

@@ -1,28 +1,91 @@
+/*simple textarea*/
 .textarea {
   width: 100%;
-  padding: 12px 16px;
-  border: 1px solid #ddd;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
   border-radius: 8px;
   font-family: inherit;
-  font-size: 16px;
-  transition: border-color 0.2s ease;
+  font-size: 14px;
+  resize: vertical;
   box-sizing: border-box;
-  resize: none;
-  min-height: 100px;
+  background: white;
 }
 
 .textarea:focus {
   outline: none;
-  border-color: rgb(84, 84, 84);
+  border-color: #e0e0e0;
 }
 
-.textarea:disabled {
-  background-color: #f5f5f5;
-  color: #999;
-  cursor: not-allowed;
+/*wysiwyg*/
+.wysiwygEditor {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px;
 }
 
-.textarea::placeholder {
+.wysiwygContainer :global(.ql-toolbar) {
+  border: none !important;
+  border-bottom: 1px solid #f5f5f5 !important;
+  background: white !important;
+  padding: 8px;
+}
+
+.wysiwygContainer :global(.ql-toolbar button:hover) {
+  background: #e2e2e2;
+}
+
+.wysiwygContainer :global(.ql-toolbar button.ql-active) {
+  background: #bfbfbf;
+}
+
+.wysiwygContainer :global(.ql-fill) {
+  fill: #606060
+}
+
+.wysiwygContainer :global(.ql-snow .ql-stroke) {
+    stroke: #606060
+}
+
+.wysiwygContainer :global(.ql-picker) {
+  color: #5d5d5d;
+  width: 100px
+}
+
+.wysiwygContainer :global(.ql-picker.ql-font) {
+    width: 100px;
+}
+
+.wysiwygContainer :global(.ql-picker.ql-size) {
+    width: 80px;
+}
+
+.wysiwygContainer :global(.ql-picker.ql-size .ql-picker-item:before) {
+  font-size: 14px;
+  color: #606060;
+}
+
+.wysiwygContainer :global(.ql-snow .ql-picker.ql-size .ql-picker-item[data-value]:before) {
+  font-size: 14px;
+  color: #606060;
+}
+
+.wysiwygContainer :global(.ql-picker-item:hover) {
+  background: #e2e2e2;
+}
+
+/* область редактирования*/
+.wysiwygContainer :global(.ql-container) {
+  border: none !important;
+  font-family: inherit;
+}
+
+.wysiwygContainer :global(.ql-editor) {
+  min-height: 150px;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.wysiwygContainer :global(.ql-editor.ql-blank::before) {
   color: #999;
-  opacity: 1;
+  font-style: italic;
 }
