@@ -1,0 +1,30 @@
+.homepage {
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(100deg, #e6edff 0%, #ffffff 100%);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 20px auto;
+    width: 100%;
+    padding: 0 20px;
+    flex: 1;
+}
+
+.content > :last-child {
+    position: sticky; 
+    top: 90px; 
+}
+
+
+
+
+
+
+

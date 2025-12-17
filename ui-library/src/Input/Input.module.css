@@ -2,6 +2,7 @@
     border-radius: 8px;
     border: 1px solid #ddd;
     padding: 10px 10px;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -19,4 +20,8 @@
 .input::placeholder {
     color: #999;
     opacity: 1;
+}
+
+.input.error {
+  border-color: #d32f2f;
 }

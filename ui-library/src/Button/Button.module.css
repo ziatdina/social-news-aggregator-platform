@@ -13,12 +13,12 @@
 }
 
 .primary {
-    background-color: #6495ed;
+    background-color: #7280ed;
     color: white;
 }
 
 .primary:hover:not(:disabled) {
-    background-color: #4f7acb;
+    background-color: rgb(69, 111, 188);
 }
 
 .secondary {
@@ -31,12 +31,12 @@
 }
 
 .danger {
-    background-color: #dc3545;
+    background-color: #ca1c1d;
     color: white;
 }
 
 .danger:hover:not(:disabled) {
-  background-color: #c82333;
+  background-color: #b11515;
 }
 
 .large {

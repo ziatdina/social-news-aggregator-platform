@@ -1,5 +1,5 @@
 describe('math', () => {
   test('plus', () => {
-    expect(5 + 5).toEqual(10)
+    expect(2 + 2).toEqual(4)
   })
 })

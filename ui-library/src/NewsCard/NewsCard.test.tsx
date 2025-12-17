@@ -80,8 +80,8 @@ describe('NewsCard', () => {
 
     render(<NewsCard {...expandedProps} />)
 
-    const image1 = screen.getByAltText('Фото 0')
-    const image2 = screen.getByAltText('Фото 1')
+    const image1 = screen.getByAltText('фото 1')
+    const image2 = screen.getByAltText('фото 2')
 
     expect(image1).toBeInTheDocument()
     expect(image2).toBeInTheDocument()
